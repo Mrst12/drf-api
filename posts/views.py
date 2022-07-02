@@ -1,4 +1,7 @@
-""" PostList view """
+"""
+Can be refactored using generics but opted not too,
+so had a template for the future
+"""
 from django.http import Http404
 from rest_framework import status,permissions
 from rest_framework.response import Response
